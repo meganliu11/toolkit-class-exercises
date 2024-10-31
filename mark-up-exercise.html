@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 <body>
-  <h1>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <em>Welcome</em> to...A BRIEF <em>History</em> of HTML html hTmL htML 
+  <h1 class="main-headings">  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <em>Welcome</em> to...A BRIEF <em>History</em> of HTML html hTmL htML 
  </h1>
  <article> 
  <p><strong>The history of <abbr title="HyperText Markup Language">HTML</abbr></strong> is a <em>strange</em> and <em>interesting</em> tale. From its simple start as an online subset of <abbr title="Standard Generalized Markup Language">SGML</abbr> through political maneuverings of the huge browser companies to its current piecemeal – but growing – compatibility, the language has weathered a storm of growth, abuse, and innovation.</p>
 
- <img src="https://lab.cccb.org/wp-content/uploads/internetjo_lab.jpg" alt= Two men are in a black-and-white photo inside what seems to be a computer laboratory or office space. The man on the left is standing behind an old computer monitor, holding open a large cape, as if dramatically revealing the computer. He wears glasses, a dress shirt, and a tie. The other man, seated on the right in front of the monitor, has his hands clasped together in a praying gesture and looks towards the monitor. He wears a sweater and glasses. In the background, large IBM computer systems are visible, suggesting the photo is from an era when IBM mainframe computers were in use. The scene feels both staged and lighthearted.>
+ <img class ="image-container" src="https://lab.cccb.org/wp-content/uploads/internetjo_lab.jpg" alt= Two men are in a black-and-white photo inside what seems to be a computer laboratory or office space. The man on the left is standing behind an old computer monitor, holding open a large cape, as if dramatically revealing the computer. He wears glasses, a dress shirt, and a tie. The other man, seated on the right in front of the monitor, has his hands clasped together in a praying gesture and looks towards the monitor. He wears a sweater and glasses. In the background, large IBM computer systems are visible, suggesting the photo is from an era when IBM mainframe computers were in use. The scene feels both staged and lighthearted.>
 
 
   <p><q>Recently, the battle for control of the standard has focused on functionality.</q> <a href="https://www.microsoft.com" target="_blank">Microsoft</a> and <a href="https://www.netscape.com" target="_blank">Netscape</a> are both touting <abbr title="World Wide Web Consortium">W3C</abbr> compliance as a crucial marketing advantage. And the work being done on the latest HTML draft shows there may be light at the end of the tunnel.</p>
@@ -32,7 +32,7 @@
       <p>So the developers, in the long-held tradition of the Internet, implemented new features in their browsers and then shipped them. If the Web community liked them, they stayed. If not, they were removed.</p>
 
       <h3>Deprecated HTML tags</h3>
-      <ul>
+      <ul class="list-style">
           <li><code>&lt;applet&gt;</code></li>
           <li><code>&lt;basefont&gt;</code></li>
           <li><code>&lt;center&gt;</code></li>
@@ -48,9 +48,46 @@
 </article>
 
 
-
 </body>
-</html>
 
+<style>
+
+p {color: blueviolet;
+   font-size: 14px;}
+
+h1 {color: red;
+    font-size: 35px;}
+
+.main-headings{
+  color : green;
+  font-size: 50px; 
+  font-family: 'Spectrum';
+  margin-left: -10%;
+}
+
+.list-style {
+  list-style-type: georgian;
+  padding-block: 20px;
+  margin: 30px;
+  padding-left: 50px;  
+}
+
+.image-container {
+  float: left; 
+  margin-right: 20px;
+  margin-bottom: 10px;
+  max-width: 900px;
+}
+
+
+
+
+
+
+</style>
+
+
+
+</html>
 
 
